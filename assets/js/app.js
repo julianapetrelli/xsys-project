@@ -11,14 +11,14 @@ document.addEventListener("click",function (e){
 })
 
 
-// comentarios
+// comments
 
 const content = document.getElementById("content");
 const cardTemplate = document.getElementById("card-template");
 
 loadComments(true);
 
-// botão de comentários
+// comment button
 
 const button = document.getElementById("loadAllComments");
 const buttonArea = document.querySelector(".button-comments");
@@ -50,6 +50,8 @@ function loadComments(showOnLoad) {
         buttonArea.classList.add("hidden");
     }
 }
+
+// Netlify
 
 const handleSubmit = (e) => {
     e.preventDefault();
