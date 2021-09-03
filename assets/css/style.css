@@ -395,42 +395,23 @@ a.button-search {
     width: 100%;
 }
 
-.contact-email input {
+.form-input {
     color: #c2c2c2;
     width: 100%;
     margin: 0; 
     background-color: #252525;
 }
 
-.contact-email input:focus {
+.form-input:focus {
     color: #c2c2c2;
     background-color: #303030;
 }
 
-.contact-email input:hover {
+.form-input:hover {
     background-color: #303030;
 }
 
-.contact-email input::placeholder {
-    color: #3d3d3d;
-}
-
-.contact-email textarea {
-    color: #c2c2c2;
-    width: 100%;
-    background-color: #252525;
-}
-
-.contact-email textarea:focus {
-    color: #c2c2c2;
-    background-color: #303030;
-}
-
-.contact-email textarea:hover {
-    background-color: #303030;
-}
-
-.contact-email textarea::placeholder {
+.form-input::placeholder {
     color: #3d3d3d;
 }
 
@@ -582,6 +563,10 @@ textarea:focus, input:focus, .uneditable-input:focus {
     COMMENTS
     =======================================================
 */
+
+.comments {
+    background-image: url(/assets/img/background-image.png);
+}
 
 .comments {
     padding-bottom: 50px;
